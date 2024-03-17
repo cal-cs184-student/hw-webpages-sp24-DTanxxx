@@ -484,7 +484,7 @@
         are not hit by the light directly are also completely dark. The shadows under the spheres are much darker in direct
         illumination only image. In indirect illumination only image, the ceiling is much brighter, but the light source itself
         is pitch black. The overall scenery appears brighter in general, and the shadows are much softer.
-        For the near sphere, the verion in indirect illumination only image appears to be mostly engulfed in shadow, whereas
+        For the near sphere, the version in indirect illumination only image appears to be mostly engulfed in shadow, whereas
         the version in direct illumination only image shows a brightly lit top part.
     </p>
     <br />
@@ -642,7 +642,8 @@
         compared to without using Russian Roulette. This speeds up the rendering operation but may produce
         glaring incorrect results if our bounce count is low (1 in this case). However, we can observe that 
         as we go up the max ray depth all the way to 100, there is very insignificant difference (if any at all)
-        compared to images in the previous section that do not use Russian Roulette. The image for max ray depth = 100
+        compared to images in the previous section that do not use Russian Roulette. This indicates that Russian
+        Roulette has converged. The image for max ray depth = 100
         also has very negligible visual differences compared to max ray depth = 4 or max ray depth = 5 in the
         previous section.
     </p>
